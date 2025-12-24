@@ -14,7 +14,7 @@ export default function Cell({value, onClick, isWinningCell}: { value: CellValue
             `}
         >
             {value === "X" && (
-                <X className="w-16 h-16 text-blue-400" strokeWidth={3} />
+                <X className="w-16 h-16 text-blue-300" strokeWidth={3} />
             )}
             {value === "O" && (
                 <Circle className="w-16 h-16 text-red-400" strokeWidth={3} />
