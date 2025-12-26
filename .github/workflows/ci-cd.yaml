@@ -178,5 +178,5 @@ jobs:
       - name: Commit and push changes
         run: |
           git add kubernetes/deployment.yaml
-          git commit -m "chore: Update Kubernetes deployment with new image tag: ${{ needs.docker.outputs.image_tag }} [skip ci]" || echo "chore: no changes to commit"
+          git commit -m "chore: Update Kubernetes deployment with new image tag: ${{ needs.build-and-push-docker-image.outputs.image_tag }} [skip ci]" || echo "chore: no changes to commit"
           git push
