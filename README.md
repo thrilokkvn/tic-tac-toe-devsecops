@@ -10,7 +10,7 @@ The pipeline follows **industry-grade DevSecOps principles**:
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ![Website](src/assets/project-workflow.png)
 
