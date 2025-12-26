@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: tic-tac-toe
+  namespace: tic-tac-toe-devsecops
   labels:
     app: tic-tac-toe
 spec:
